@@ -27,7 +27,7 @@ body {
 header {
     position: relative;
     background-color: #B4D0E7;
-    z-index: -1;
+    z-index: 0;
 }
 
 .sticky {
@@ -37,6 +37,7 @@ header {
     left: 0;
     height: 80px;
     background-color: white;
+    z-index: 1000;
 }
 
 nav, .logo {
@@ -93,7 +94,7 @@ nav ul li a {
 }
 
 .jumbo-text p {
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 600;
     padding-bottom: 30px;
 }
@@ -136,4 +137,84 @@ nav ul li a {
     position: absolute;
     bottom: 0;
     z-index: -1;
+}
+
+/* main */
+.container{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 45px;
+    padding: 35px 0;
+}
+
+.container .radio {
+    padding: 20px 0;
+}
+
+.container .radio label{
+    padding-right:20px;
+}
+
+/* section */
+.card {
+    width: calc(33% - 40px);
+    border: 1px solid #d7d7d7;
+    z-index: 0;
+    height: 1200px;
+}
+
+.card .profilo {
+    border-bottom: 1px solid #d7d7d7;
+    text-align: center;
+    line-height: 40px;
+}
+
+.mini-container {
+    width: 80%;
+    margin: 30px auto;
+    margin-bottom: 200px;
+}
+
+.mini-container span {
+    display: block;
+    padding: 15px 0;
+}
+
+.mini-container .btn {
+    width: 100%;
+    line-height: 35px;
+    background-color: #0061FF;
+    text-align: center;
+}
+
+.mini-container .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.mini-container a {
+    text-decoration: none;
+    color: #0061FF;
+}
+
+.mini-container .line {
+    display: inline-block;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.mini-container h3 {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.mini-container h4{
+    padding: 20px 0;
+}
+
+.center {
+    margin: 0 60px;
 }
