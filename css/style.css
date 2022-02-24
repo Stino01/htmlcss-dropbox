@@ -12,5 +12,75 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    width: 1200px;
+    min-width: 1200px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* header sticky*/
+header {
+    position: relative;
+    background-color: #B4D0E7;
+}
+
+.sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+}
+
+nav, .logo {
+    line-height: 80px;
+}
+
+.logo img {
+    vertical-align: middle;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.inizia {
+    line-height: 80px;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.inizia a {
+    text-decoration: none;
+    color: white;
+    background-color: #5656CF;
+    padding: 5px 20px;
+}
+
+/* header */
+.container-header {
+    width: 85%;
+    margin: 80px auto;
+}
+
+.jumbotron h1 {
+    font-size: 90px;
+    padding-top: 100px;
 }
