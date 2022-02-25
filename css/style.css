@@ -403,3 +403,16 @@ nav ul li a {
 }
 
 /* section5 */
+.sc5 {
+    padding: 130px 0;
+}
+
+.container .sc5 h3 {
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+
+.container .sc5 p {
+    padding: 40px 0;
+    font-weight: 700;
+}
