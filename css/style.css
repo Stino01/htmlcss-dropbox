@@ -358,9 +358,6 @@ nav ul li a {
 
 .row .col-left {
     width: 30vw;
-    height: 30vw;
-    height: auto;
-    background-color: #0061FF;
 }
 
 .row .col-left img {
@@ -388,7 +385,6 @@ nav ul li a {
 }
 
 .container .cm1 h2 {
-    color: #61082B;
     padding: 120px 0 85px 0;
 }
 
@@ -401,6 +397,41 @@ nav ul li a {
     position: relative;
     bottom: 200px;
 }
+
+/* background images */
+
+.bg1 {
+ background-color: #A2D39B;
+}
+
+.bg2 {
+    background-color: #61082B;
+}
+
+.bg3 {
+    background-color: #0093CE;
+}
+
+.bg4 {
+    background-color: #FF1C1C;
+}
+
+.bg5 {
+    background-color: #D5001F;
+}
+
+.bg7 {
+    background-color: #0D2481;
+}
+
+.bg8 {
+    background-color: #FFD830;
+}
+
+#red {
+    color: #61082B;
+}
+
 
 /* section5 */
 .sc5 {
@@ -415,4 +446,46 @@ nav ul li a {
 .container .sc5 p {
     padding: 40px 0;
     font-weight: 700;
+}
+
+/* footer */
+footer {
+    background-color: black;
+}
+
+.container-footer {
+    width: 80%;
+    margin: 0px auto;
+    padding: 100px 0;
+}
+
+.container-footer .list {
+    width: 20%;
+}
+
+.container-footer h4 {
+    color: white;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.container-footer ul {
+    list-style-type: none;
+}
+
+.container-footer ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.container-footer hr {
+    display: block;
+    width: 10%;
+    color: white;
+    margin: 100px 0 50px 0;
+}
+
+.container-footer span {
+    color: #d7d7d7;
 }
