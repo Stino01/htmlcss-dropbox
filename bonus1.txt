@@ -1,0 +1,2 @@
+Visualizzare la pagina solution è possibile cliccando su qualsiasi alemento nella barra di navigazione sticky di index tranne "supporto".
+Stessa cosa per quanto riguarda solution che fa tornare indietro ad index dagli stessi link.
