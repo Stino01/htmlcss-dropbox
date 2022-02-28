@@ -29,7 +29,12 @@
             <div class="inizia right"><a href="#">Inizia</a></div>
             <nav>
                 <ul class="right">
-                    <li><a href="#">Supporto</a></li>
+                    <li><a href="#">Supporto</a>
+                        <ul class="sub-menu">
+                            <li class="sub-list"><a href="#">Centro assistenza</a></li>
+                            <li class="sub-list"><a href="#">Form della community</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Contatta l'ufficio vendite</a></li>
                     <li><a href="#">Accedi</a></li>
                 </ul>
@@ -42,9 +47,9 @@
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.
                         Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato
                         per ottimizzare il flusso di lavoro esistente.</p>
-                    <a href="#">Inizia la prova gratuita</a>
+                    <a class="button" href="#">Inizia la prova gratuita</a>
                     <span>Annulla in qualsiasi momento</span>
-                    <i class="fa-solid fa-arrow-down"></i>
+                    <a href="#find"><i class="fa-solid fa-arrow-down"></i></a>
                 </div>
                 <div class="jumbo-image left"><img src="./img/jumbo.png" alt="jumbo"></div>
             </section>
@@ -55,11 +60,11 @@
         <!-- section1 -->
         <div class="container">
             <section>
-                <h2>Trova il piano Dropbox Business che fa per te</h2>
+                <h2 id="find">Trova il piano Dropbox Business che fa per te</h2>
                 <div class="radio">
-                    <input type="radio" id="mensile" value="mensile">
+                    <input type="radio" id="mensile" name="fatturazione" value="mensile">
                     <label for="mensile">Fatturazione mensile</label>
-                    <input type="radio" id="annuale" value="annuale">
+                    <input type="radio" id="annuale" name="fatturazione" value="annuale">
                     <label for="annuale">Fatturazione annuale</label>
                 </div>
                 <div class="container-card clearfix">
@@ -77,11 +82,11 @@
                             <span class="line">oppure</span> <a href="#">acquista ora</a>
                             <h4>Punti salienti del piano</h4>
                             <ul>
-                                <li> Invia file fino a 100 GB con Dropbox Transfert</li>
-                                <li> Cartelle offline su dispositivi mobili</li>
-                                <li> Pulizia remota dell'account</li>
-                                <li> Filigrana documento</li>
-                                <li> Assistenza prioritaria via email e chat</li>
+                                <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</li>
+                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fa-solid fa-check"></i> Pulizia remota dell'account</li>
+                                <li><i class="fa-solid fa-check"></i> Filigrana documento</li>
+                                <li><i class="fa-solid fa-check"></i> Assistenza prioritaria via email e chat</li>
                             </ul>
                         </section>
                     </div>
@@ -99,12 +104,12 @@
                             <span class="line">oppure</span> <a href="#">acquista ora</a>
                             <h4>Punti salienti del piano</h4>
                             <ul>
-                                <li> Invia file fino a 100 GB con Dropbox Transfert</li>
-                                <li> Cartelle offline su dispositivi mobili</li>
-                                <li> Pulizia remota dell'account</li>
-                                <li> Filigrana documento</li>
-                                <li> Assistenza prioritaria via email e chat</li>
-                                <li> Assistenza prioritaria via email e chat</li>
+                                <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</li>
+                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fa-solid fa-check"></i> Pulizia remota dell'account</li>
+                                <li><i class="fa-solid fa-check"></i> Filigrana documento</li>
+                                <li><i class="fa-solid fa-check"></i> Assistenza prioritaria via email e chat</li>
+                                <li><i class="fa-solid fa-check"></i> Assistenza prioritaria via email e chat</li>
                             </ul>
                         </section>
                     </div>
@@ -122,12 +127,12 @@
                             <span class="line">oppure</span> <a href="#">acquista ora</a>
                             <h4>Punti salienti del piano</h4>
                             <ul>
-                                <li> Invia file fino a 100 GB con Dropbox Transfert</li>
-                                <li> Cartelle offline su dispositivi mobili</li>
-                                <li> Pulizia remota dell'account</li>
-                                <li> Filigrana documento</li>
-                                <li> Assistenza prioritaria via email e chat</li>
-                                <li> Assistenza prioritaria via email e chat</li>
+                                <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</li>
+                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fa-solid fa-check"></i> Pulizia remota dell'account</li>
+                                <li><i class="fa-solid fa-check"></i> Filigrana documento</li>
+                                <li><i class="fa-solid fa-check"></i> Assistenza prioritaria via email e chat</li>
+                                <li><i class="fa-solid fa-check"></i> Assistenza prioritaria via email e chat</li>
                             </ul>
                         </section>
                     </div>
@@ -233,11 +238,23 @@
         <!-- section5 -->
         <div class="container">
             <section class="sc5">
-                <h3>Domande frequenti</h3><hr>
-                <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p><hr>
-                <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p><hr>
-                <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p><hr>
-                <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p><hr>
+                <h3>Domande frequenti</h3>
+                <div class="domanda clearfix">
+                    <p class="show">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> <i class="fa-solid fa-angle-down"></i>
+                    <p class="hidden">Il piano Standard fornisce ai team 5 TB (5000 GB) di spazio di archiviazione e semplici strumenti di condivisione e collaborazione. Per i team che hanno bisogno di più spazio di archiviazione e sicurezza, il piach Advanced offre tutto lo spazio necessario al team, oltre a sofisticate funzioni di amministrazione, controllo, integrazione e sicurezza. Per ulteriori informazioni sui nostri piani, consulta questa pagina.</p>
+                </div>
+                <div class="domanda clearfix">
+                    <p class="show">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> <i class="fa-solid fa-angle-down"></i>
+                    <p class="hidden">Il piano Standard fornisce ai team 5 TB (5000 GB) di spazio di archiviazione e semplici strumenti di condivisione e collaborazione. Per i team che hanno bisogno di più spazio di archiviazione e sicurezza, il piach Advanced offre tutto lo spazio necessario al team, oltre a sofisticate funzioni di amministrazione, controllo, integrazione e sicurezza. Per ulteriori informazioni sui nostri piani, consulta questa pagina.</p>
+                </div>
+                <div class="domanda clearfix">
+                    <p class="show">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> <i class="fa-solid fa-angle-down"></i>
+                    <p class="hidden">Il piano Standard fornisce ai team 5 TB (5000 GB) di spazio di archiviazione e semplici strumenti di condivisione e collaborazione. Per i team che hanno bisogno di più spazio di archiviazione e sicurezza, il piach Advanced offre tutto lo spazio necessario al team, oltre a sofisticate funzioni di amministrazione, controllo, integrazione e sicurezza. Per ulteriori informazioni sui nostri piani, consulta questa pagina.</p>
+                </div>
+                <div class="domanda last-line clearfix">
+                    <p class="show">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> <i class="fa-solid fa-angle-down"></i>
+                    <p class="hidden">Il piano Standard fornisce ai team 5 TB (5000 GB) di spazio di archiviazione e semplici strumenti di condivisione e collaborazione. Per i team che hanno bisogno di più spazio di archiviazione e sicurezza, il piach Advanced offre tutto lo spazio necessario al team, oltre a sofisticate funzioni di amministrazione, controllo, integrazione e sicurezza. Per ulteriori informazioni sui nostri piani, consulta questa pagina.</p>
+                </div>
             </section>
         </div>
         <!-- fine section5 -->
